@@ -84,7 +84,7 @@ function tool() {
     
     var tot_scr = pxr + img + labo + anci + b_scr + v_scr; 
     
-    //Step 1.2 Create the 2D Array (lines) of pre-calculated slopes of all tanh curves and the ymax (Max y value of each curve) stored as the array constants. 
+    //Step 1.2 Create the 2D Array (lines) of pre-calculated y values of all tanh curves and the ymax (Max y value of each curve) stored as the array constants. 
     
     var lines = [[0.834, 0.664, 0.380, 0], [0.667, 0.531, 0.303, 0], [0.500, 0.398, 0.228, 0], [0.333, 0.266, 0.152, 0], [0.167, 0.133, 0.076, 0]]; //y values at x values of [1.2, 0.8, 0.4, 0] for the lines of slopes [tanh, 0.8*tanh, 0.6*tanh, 0.4*tanh, 0.2*tanh]
     var constants = [1, 0.8, 0.6, 0.4, 0.2] //max y values at inf x value
